@@ -323,6 +323,10 @@ public class CelestialScreen extends Screen implements ClientSatelliteAccessor.S
 
         BufferUploader.draw( buffer.build());
 
+        drawCube(buffer,0,0,0, size+0.1f);
+        Minecraft.getInstance().getTextureManager().bindForSetup(ResourceLocation.parse("galacticraft:textures/gui/selection_cursor.png"));
+        BufferUploader.draw( buffer.build());
+
 
 
         RenderSystem.enableCull();
