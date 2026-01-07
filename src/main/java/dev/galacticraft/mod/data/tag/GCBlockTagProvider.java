@@ -658,6 +658,7 @@ public class GCBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(GCBlocks.MOON_CHEESE_BLOCK)
                 .add(GCBlocks.MOON_CHEESE_LOG)
+                .add(GCBlocks.MAGNETIC_CRAFTING_TABLE)
                 .add(GCBlocks.LUNAR_CARTOGRAPHY_TABLE)
                 .add(GCBlocks.PARACHEST);
 

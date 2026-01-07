@@ -247,6 +247,7 @@ public class GCTranslationProvider extends TranslationProvider {
         this.block(GCBlocks.ROCKET_LAUNCH_PAD, "Rocket Launch Pad");
         this.block(GCBlocks.ROCKET_WORKBENCH, "Rocket Workbench");
         this.block(GCBlocks.PARACHEST, "Parachest");
+        this.block(GCBlocks.MAGNETIC_CRAFTING_TABLE, "Magnetic Crafting Table");
 
         for (Map.Entry<PipeColor, Block> entry : GCBlocks.GLASS_FLUID_PIPES.entrySet()) {
             PipeColor color = entry.getKey();
